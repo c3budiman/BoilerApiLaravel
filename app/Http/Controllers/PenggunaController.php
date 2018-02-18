@@ -23,6 +23,15 @@ class PenggunaController extends Controller
       $user = $user->find(Auth::user()->id);
       return fractal()->item($user)
                       ->transformWith(new UserTransformer)
+                      ->includePosts()
+                      ->toArray();
+    }
+
+    public function getProfilById(User $user, $id) {
+      $user = $user->find($id);
+      return fractal()->item($user)
+                      ->transformWith(new UserTransformer)
+                      ->includePosts()
                       ->toArray();
     }
 }

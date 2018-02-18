@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\User;
 
 class Post extends Model
 {
@@ -12,4 +13,12 @@ class Post extends Model
   protected $fillable = [
     'author','post',
   ];
+
+  public function scopeMudaDuluan($query) {
+    return $query->orderBy('id', 'DESC');
+  }
+
+  public function user() {
+    $this->belongsTo(User::class);
+  }
 }
