@@ -5,7 +5,8 @@ this is my handcrafted laravel api with transformer for backend, for frontend il
 <pre> clone this repo </pre>
 <pre> composer update </pre>
 <pre> php artisan key:generate </pre>
+<pre> config ur .env </pre>
 <pre> php artisan migrate </pre>
 
-how to use??
-use postman! or read my routes in routes/api.php or my comment in entire controller,model,and routes
+how to learn and to use?
+read the comment in the code.....
