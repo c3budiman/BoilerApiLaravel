@@ -14,3 +14,9 @@ what is different? i use ttl token thanks to jwt : https://github.com/tymondesig
 
 how to learn and to use?
 read the comment in the code.....
+routes/api.php
+and in the controllers
+
+<pre>
+how about front end? Check Out : https://github.com/c3budiman/ReactTesting
+</pre>
