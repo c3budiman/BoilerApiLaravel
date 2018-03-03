@@ -1,5 +1,7 @@
 # BoilerApiLaravel
-this is my handcrafted laravel api with transformer for backend, for frontend ill use react.js later....
+this is my handcrafted laravel api with transformer for backend,
+<br>
+how about front end? Check Out : https://github.com/c3budiman/ReactTesting
 <br>
 inspired by this video : https://www.youtube.com/watch?v=wE2r0VJFoAs&list=PLEgI20pG1DqyueOv_hY4F7t1qRUS_X4Ny
 <br>
@@ -17,6 +19,4 @@ read the comment in the code.....
 routes/api.php
 and in the controllers
 
-<pre>
-how about front end? Check Out : https://github.com/c3budiman/ReactTesting
-</pre>
+
